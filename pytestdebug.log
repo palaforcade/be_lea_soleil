@@ -1,0 +1,1500 @@
+versions pytest-7.1.3, python-3.7.3.final.0
+cwd=/Users/palaforcade/Desktop/lea
+args=('--debug',)
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x10cfcdd68>
+    pytest_plugin_registered [hook]
+        plugin: <Session lea exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x10cfcdd68>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10d3e5278>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10d3e5b00>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x10cfcdd68>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'anyio.pytest_plugin' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/anyio/pytest_plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=6 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=7 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=8 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=9 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=4 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from '/Users/palaforcade/Desktop/lea/tests/conftest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10d3e5278>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10d3e5b00>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x10d3e5ef0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x10d861710>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x10cfcdd68>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'anyio.pytest_plugin' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/anyio/pytest_plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=6 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=7 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=8 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=9 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=4 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from '/Users/palaforcade/Desktop/lea/tests/conftest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10d3e5278>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10d3e5b00>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x10d3e5ef0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x10d861710>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x10d18e9b0>
+          manager: <_pytest.config.PytestPluginManager object at 0x10bf7a550>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x10cfcdd68>
+          start_path: /Users/palaforcade/Desktop/lea
+          startdir: /Users/palaforcade/Desktop/lea
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      finish pytest_report_header --> [['rootdir: /Users/palaforcade/Desktop/lea', 'plugins: anyio-3.6.1'], ['using: pytest-7.1.3', 'setuptools registered plugins:', '  anyio-3.6.1 at /Users/palaforcade/Library/Python/3.7/lib/python/site-packages/anyio/pytest_plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['/Users/palaforcade/Desktop/lea'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (PosixPath('/Users/palaforcade/Desktop/lea'), []) [collection]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/pytestdebug.log
+                path: /Users/palaforcade/Desktop/lea/pytestdebug.log
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/palaforcade/Desktop/lea/pytestdebug.log
+                path: /Users/palaforcade/Desktop/lea/pytestdebug.log
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/.pytest_cache
+                path: /Users/palaforcade/Desktop/lea/.pytest_cache
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/.vscode
+                path: /Users/palaforcade/Desktop/lea/.vscode
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/app
+                path: /Users/palaforcade/Desktop/lea/app
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/app/__init__.py
+                path: /Users/palaforcade/Desktop/lea/app/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/palaforcade/Desktop/lea/app/__init__.py
+                path: /Users/palaforcade/Desktop/lea/app/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/palaforcade/Desktop/lea/app/__init__.py
+                  path: /Users/palaforcade/Desktop/lea/app/__init__.py
+              finish pytest_pycollect_makemodule --> <Package app> [hook]
+            finish pytest_collect_file --> [<Package app>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/app/mask_operations
+                path: /Users/palaforcade/Desktop/lea/app/mask_operations
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/app/mask_operations/__init__.py
+                path: /Users/palaforcade/Desktop/lea/app/mask_operations/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/palaforcade/Desktop/lea/app/mask_operations/__init__.py
+                path: /Users/palaforcade/Desktop/lea/app/mask_operations/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/palaforcade/Desktop/lea/app/mask_operations/__init__.py
+                  path: /Users/palaforcade/Desktop/lea/app/mask_operations/__init__.py
+              finish pytest_pycollect_makemodule --> <Package mask_operations> [hook]
+            finish pytest_collect_file --> [<Package mask_operations>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/app/masks
+                path: /Users/palaforcade/Desktop/lea/app/masks
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/app/masks/__init__.py
+                path: /Users/palaforcade/Desktop/lea/app/masks/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/palaforcade/Desktop/lea/app/masks/__init__.py
+                path: /Users/palaforcade/Desktop/lea/app/masks/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/palaforcade/Desktop/lea/app/masks/__init__.py
+                  path: /Users/palaforcade/Desktop/lea/app/masks/__init__.py
+              finish pytest_pycollect_makemodule --> <Package masks> [hook]
+            finish pytest_collect_file --> [<Package masks>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/tests
+                path: /Users/palaforcade/Desktop/lea/tests
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/tests/conftest.py
+                path: /Users/palaforcade/Desktop/lea/tests/conftest.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/palaforcade/Desktop/lea/tests/conftest.py
+                path: /Users/palaforcade/Desktop/lea/tests/conftest.py
+            finish pytest_collect_file --> [] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/tests/integration
+                path: /Users/palaforcade/Desktop/lea/tests/integration
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/tests/integration/test_grenoble_mountains.py
+                path: /Users/palaforcade/Desktop/lea/tests/integration/test_grenoble_mountains.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/palaforcade/Desktop/lea/tests/integration/test_grenoble_mountains.py
+                path: /Users/palaforcade/Desktop/lea/tests/integration/test_grenoble_mountains.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/palaforcade/Desktop/lea/tests/integration/test_grenoble_mountains.py
+                  path: /Users/palaforcade/Desktop/lea/tests/integration/test_grenoble_mountains.py
+              finish pytest_pycollect_makemodule --> <Module tests/integration/test_grenoble_mountains.py> [hook]
+            finish pytest_collect_file --> [<Module tests/integration/test_grenoble_mountains.py>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/tests/unit
+                path: /Users/palaforcade/Desktop/lea/tests/unit
+            finish pytest_ignore_collect --> None [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/tests/unit/test_brokenline.py
+                path: /Users/palaforcade/Desktop/lea/tests/unit/test_brokenline.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/palaforcade/Desktop/lea/tests/unit/test_brokenline.py
+                path: /Users/palaforcade/Desktop/lea/tests/unit/test_brokenline.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/palaforcade/Desktop/lea/tests/unit/test_brokenline.py
+                  path: /Users/palaforcade/Desktop/lea/tests/unit/test_brokenline.py
+              finish pytest_pycollect_makemodule --> <Module tests/unit/test_brokenline.py> [hook]
+            finish pytest_collect_file --> [<Module tests/unit/test_brokenline.py>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/tests/unit/test_interval.py
+                path: /Users/palaforcade/Desktop/lea/tests/unit/test_interval.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/palaforcade/Desktop/lea/tests/unit/test_interval.py
+                path: /Users/palaforcade/Desktop/lea/tests/unit/test_interval.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/palaforcade/Desktop/lea/tests/unit/test_interval.py
+                  path: /Users/palaforcade/Desktop/lea/tests/unit/test_interval.py
+              finish pytest_pycollect_makemodule --> <Module tests/unit/test_interval.py> [hook]
+            finish pytest_collect_file --> [<Module tests/unit/test_interval.py>] [hook]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x10cfcdd68>
+                collection_path: /Users/palaforcade/Desktop/lea/tests/unit/test_union.py
+                path: /Users/palaforcade/Desktop/lea/tests/unit/test_union.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /Users/palaforcade/Desktop/lea/tests/unit/test_union.py
+                path: /Users/palaforcade/Desktop/lea/tests/unit/test_union.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /Users/palaforcade/Desktop/lea/tests/unit/test_union.py
+                  path: /Users/palaforcade/Desktop/lea/tests/unit/test_union.py
+              finish pytest_pycollect_makemodule --> <Module tests/unit/test_union.py> [hook]
+            finish pytest_collect_file --> [<Module tests/unit/test_union.py>] [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=7 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=7 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Package app> [collection]
+      pytest_collectstart [hook]
+          collector: <Package app>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package app>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/interval.py
+            path: /Users/palaforcade/Desktop/lea/app/interval.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package app>
+            file_path: /Users/palaforcade/Desktop/lea/app/interval.py
+            path: /Users/palaforcade/Desktop/lea/app/interval.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/is_sun_hidden.py
+            path: /Users/palaforcade/Desktop/lea/app/is_sun_hidden.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package app>
+            file_path: /Users/palaforcade/Desktop/lea/app/is_sun_hidden.py
+            path: /Users/palaforcade/Desktop/lea/app/is_sun_hidden.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/main.py
+            path: /Users/palaforcade/Desktop/lea/app/main.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package app>
+            file_path: /Users/palaforcade/Desktop/lea/app/main.py
+            path: /Users/palaforcade/Desktop/lea/app/main.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/plotter.py
+            path: /Users/palaforcade/Desktop/lea/app/plotter.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package app>
+            file_path: /Users/palaforcade/Desktop/lea/app/plotter.py
+            path: /Users/palaforcade/Desktop/lea/app/plotter.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/point.py
+            path: /Users/palaforcade/Desktop/lea/app/point.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package app>
+            file_path: /Users/palaforcade/Desktop/lea/app/point.py
+            path: /Users/palaforcade/Desktop/lea/app/point.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/mask_operations
+            path: /Users/palaforcade/Desktop/lea/app/mask_operations
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/mask_operations/__init__.py
+            path: /Users/palaforcade/Desktop/lea/app/mask_operations/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/masks
+            path: /Users/palaforcade/Desktop/lea/app/masks
+        finish pytest_ignore_collect --> None [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/masks/__init__.py
+            path: /Users/palaforcade/Desktop/lea/app/masks/__init__.py
+        finish pytest_ignore_collect --> None [hook]
+      finish pytest_make_collect_report --> <CollectReport 'app/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'app/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package mask_operations> [collection]
+      pytest_collectstart [hook]
+          collector: <Package mask_operations>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package mask_operations>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/mask_operations/intersection.py
+            path: /Users/palaforcade/Desktop/lea/app/mask_operations/intersection.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package mask_operations>
+            file_path: /Users/palaforcade/Desktop/lea/app/mask_operations/intersection.py
+            path: /Users/palaforcade/Desktop/lea/app/mask_operations/intersection.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/mask_operations/union.py
+            path: /Users/palaforcade/Desktop/lea/app/mask_operations/union.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package mask_operations>
+            file_path: /Users/palaforcade/Desktop/lea/app/mask_operations/union.py
+            path: /Users/palaforcade/Desktop/lea/app/mask_operations/union.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'app/mask_operations/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'app/mask_operations/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Package masks> [collection]
+      pytest_collectstart [hook]
+          collector: <Package masks>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Package masks>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/masks/broken_line.py
+            path: /Users/palaforcade/Desktop/lea/app/masks/broken_line.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package masks>
+            file_path: /Users/palaforcade/Desktop/lea/app/masks/broken_line.py
+            path: /Users/palaforcade/Desktop/lea/app/masks/broken_line.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/masks/ellipse.py
+            path: /Users/palaforcade/Desktop/lea/app/masks/ellipse.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package masks>
+            file_path: /Users/palaforcade/Desktop/lea/app/masks/ellipse.py
+            path: /Users/palaforcade/Desktop/lea/app/masks/ellipse.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/masks/mask.py
+            path: /Users/palaforcade/Desktop/lea/app/masks/mask.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package masks>
+            file_path: /Users/palaforcade/Desktop/lea/app/masks/mask.py
+            path: /Users/palaforcade/Desktop/lea/app/masks/mask.py
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            collection_path: /Users/palaforcade/Desktop/lea/app/masks/rectangle.py
+            path: /Users/palaforcade/Desktop/lea/app/masks/rectangle.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Package masks>
+            file_path: /Users/palaforcade/Desktop/lea/app/masks/rectangle.py
+            path: /Users/palaforcade/Desktop/lea/app/masks/rectangle.py
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'app/masks/__init__.py' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'app/masks/__init__.py' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module tests/integration/test_grenoble_mountains.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module tests/integration/test_grenoble_mountains.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module tests/integration/test_grenoble_mountains.py>
+      find_module called for: test_grenoble_mountains [assertion]
+      matched test file '/Users/palaforcade/Desktop/lea/tests/integration/test_grenoble_mountains.py' [assertion]
+      found cached rewritten pyc for /Users/palaforcade/Desktop/lea/tests/integration/test_grenoble_mountains.py [assertion]
+      early skip of rewriting module: app [assertion]
+      early skip of rewriting module: app.masks [assertion]
+      early skip of rewriting module: app.masks.broken_line [assertion]
+      early skip of rewriting module: app.masks.mask [assertion]
+      early skip of rewriting module: matplotlib [assertion]
+      early skip of rewriting module: numpy [assertion]
+      early skip of rewriting module: numpy._globals [assertion]
+      early skip of rewriting module: numpy.__config__ [assertion]
+      early skip of rewriting module: numpy._version [assertion]
+      early skip of rewriting module: numpy._distributor_init [assertion]
+      early skip of rewriting module: numpy.core [assertion]
+      early skip of rewriting module: numpy.version [assertion]
+      early skip of rewriting module: numpy.core.multiarray [assertion]
+      early skip of rewriting module: numpy.core.overrides [assertion]
+      early skip of rewriting module: numpy.core._multiarray_umath [assertion]
+      early skip of rewriting module: numpy.compat [assertion]
+      early skip of rewriting module: numpy.compat._inspect [assertion]
+      early skip of rewriting module: numpy.compat.py3k [assertion]
+      early skip of rewriting module: pickle5 [assertion]
+      early skip of rewriting module: pickle [assertion]
+      early skip of rewriting module: _compat_pickle [assertion]
+      early skip of rewriting module: org [assertion]
+      early skip of rewriting module: _pickle [assertion]
+      early skip of rewriting module: numpy.core.umath [assertion]
+      early skip of rewriting module: numpy.core.numerictypes [assertion]
+      early skip of rewriting module: numpy.core._string_helpers [assertion]
+      early skip of rewriting module: numpy.core._type_aliases [assertion]
+      early skip of rewriting module: numpy.core._dtype [assertion]
+      early skip of rewriting module: numpy.core.numeric [assertion]
+      early skip of rewriting module: numpy.core.shape_base [assertion]
+      early skip of rewriting module: numpy.core.fromnumeric [assertion]
+      early skip of rewriting module: numpy.core._methods [assertion]
+      early skip of rewriting module: numpy.core._exceptions [assertion]
+      early skip of rewriting module: numpy.core._ufunc_config [assertion]
+      early skip of rewriting module: numpy.core.arrayprint [assertion]
+      early skip of rewriting module: numpy.core._asarray [assertion]
+      early skip of rewriting module: numpy.core.defchararray [assertion]
+      early skip of rewriting module: numpy.core.records [assertion]
+      early skip of rewriting module: numpy.core.memmap [assertion]
+      early skip of rewriting module: numpy.core.function_base [assertion]
+      early skip of rewriting module: numpy.core.machar [assertion]
+      early skip of rewriting module: numpy.core.getlimits [assertion]
+      early skip of rewriting module: numpy.core.einsumfunc [assertion]
+      early skip of rewriting module: numpy.core._add_newdocs [assertion]
+      early skip of rewriting module: numpy.core._multiarray_tests [assertion]
+      early skip of rewriting module: numpy.core._add_newdocs_scalars [assertion]
+      early skip of rewriting module: numpy.core._dtype_ctypes [assertion]
+      early skip of rewriting module: numpy.core._internal [assertion]
+      early skip of rewriting module: ctypes [assertion]
+      early skip of rewriting module: _ctypes [assertion]
+      early skip of rewriting module: ctypes._endian [assertion]
+      early skip of rewriting module: numpy._pytesttester [assertion]
+      early skip of rewriting module: numpy.lib [assertion]
+      early skip of rewriting module: numpy.lib.mixins [assertion]
+      early skip of rewriting module: numpy.lib.scimath [assertion]
+      early skip of rewriting module: numpy.lib.type_check [assertion]
+      early skip of rewriting module: numpy.lib.ufunclike [assertion]
+      early skip of rewriting module: numpy.lib.index_tricks [assertion]
+      early skip of rewriting module: numpy.matrixlib [assertion]
+      early skip of rewriting module: numpy.matrixlib.defmatrix [assertion]
+      early skip of rewriting module: numpy.linalg [assertion]
+      early skip of rewriting module: numpy.linalg.linalg [assertion]
+      early skip of rewriting module: numpy.lib.twodim_base [assertion]
+      early skip of rewriting module: numpy.lib.stride_tricks [assertion]
+      early skip of rewriting module: numpy.linalg.lapack_lite [assertion]
+      early skip of rewriting module: numpy.linalg._umath_linalg [assertion]
+      early skip of rewriting module: numpy.lib.function_base [assertion]
+      early skip of rewriting module: numpy.lib.histograms [assertion]
+      early skip of rewriting module: numpy.lib.nanfunctions [assertion]
+      early skip of rewriting module: numpy.lib.shape_base [assertion]
+      early skip of rewriting module: numpy.lib.polynomial [assertion]
+      early skip of rewriting module: numpy.lib.utils [assertion]
+      early skip of rewriting module: numpy.lib.arraysetops [assertion]
+      early skip of rewriting module: numpy.lib.npyio [assertion]
+      early skip of rewriting module: numpy.lib.format [assertion]
+      early skip of rewriting module: numpy.lib._datasource [assertion]
+      early skip of rewriting module: numpy.lib._iotools [assertion]
+      early skip of rewriting module: numpy.lib.arrayterator [assertion]
+      early skip of rewriting module: numpy.lib.arraypad [assertion]
+      early skip of rewriting module: numpy.lib._version [assertion]
+      early skip of rewriting module: numpy.fft [assertion]
+      early skip of rewriting module: numpy.fft._pocketfft [assertion]
+      early skip of rewriting module: numpy.fft._pocketfft_internal [assertion]
+      early skip of rewriting module: numpy.fft.helper [assertion]
+      early skip of rewriting module: numpy.polynomial [assertion]
+      early skip of rewriting module: numpy.polynomial.polynomial [assertion]
+      early skip of rewriting module: numpy.polynomial.polyutils [assertion]
+      early skip of rewriting module: numpy.polynomial._polybase [assertion]
+      early skip of rewriting module: numpy.polynomial.chebyshev [assertion]
+      early skip of rewriting module: numpy.polynomial.legendre [assertion]
+      early skip of rewriting module: numpy.polynomial.hermite [assertion]
+      early skip of rewriting module: numpy.polynomial.hermite_e [assertion]
+      early skip of rewriting module: numpy.polynomial.laguerre [assertion]
+      early skip of rewriting module: numpy.random [assertion]
+      early skip of rewriting module: numpy.random._pickle [assertion]
+      early skip of rewriting module: numpy.random.mtrand [assertion]
+      early skip of rewriting module: numpy.random.bit_generator [assertion]
+      early skip of rewriting module: numpy.random._common [assertion]
+      early skip of rewriting module: backports_abc [assertion]
+      early skip of rewriting module: secrets [assertion]
+      early skip of rewriting module: hmac [assertion]
+      early skip of rewriting module: numpy.random._bounded_integers [assertion]
+      early skip of rewriting module: numpy.random._mt19937 [assertion]
+      early skip of rewriting module: numpy.random._philox [assertion]
+      early skip of rewriting module: numpy.random._pcg64 [assertion]
+      early skip of rewriting module: numpy.random._sfc64 [assertion]
+      early skip of rewriting module: numpy.random._generator [assertion]
+      early skip of rewriting module: numpy.ctypeslib [assertion]
+      early skip of rewriting module: numpy.ma [assertion]
+      early skip of rewriting module: numpy.ma.core [assertion]
+      early skip of rewriting module: numpy.ma.extras [assertion]
+      early skip of rewriting module: packaging [assertion]
+      early skip of rewriting module: packaging.__about__ [assertion]
+      early skip of rewriting module: packaging.version [assertion]
+      early skip of rewriting module: packaging._structures [assertion]
+      early skip of rewriting module: matplotlib._api [assertion]
+      early skip of rewriting module: matplotlib._api.deprecation [assertion]
+      early skip of rewriting module: matplotlib._version [assertion]
+      early skip of rewriting module: matplotlib.cbook [assertion]
+      early skip of rewriting module: gzip [assertion]
+      early skip of rewriting module: matplotlib._c_internal_utils [assertion]
+      early skip of rewriting module: matplotlib.docstring [assertion]
+      early skip of rewriting module: matplotlib.rcsetup [assertion]
+      early skip of rewriting module: matplotlib.colors [assertion]
+      early skip of rewriting module: PIL [assertion]
+      early skip of rewriting module: PIL._version [assertion]
+      early skip of rewriting module: PIL.Image [assertion]
+      early skip of rewriting module: defusedxml [assertion]
+      early skip of rewriting module: PIL.ImageMode [assertion]
+      early skip of rewriting module: PIL.TiffTags [assertion]
+      early skip of rewriting module: PIL._binary [assertion]
+      early skip of rewriting module: PIL._deprecate [assertion]
+      early skip of rewriting module: PIL._util [assertion]
+      early skip of rewriting module: PIL._imaging [assertion]
+      early skip of rewriting module: cffi [assertion]
+      early skip of rewriting module: PIL.PngImagePlugin [assertion]
+      early skip of rewriting module: PIL.ImageChops [assertion]
+      early skip of rewriting module: PIL.ImageFile [assertion]
+      early skip of rewriting module: PIL.ImagePalette [assertion]
+      early skip of rewriting module: array [assertion]
+      early skip of rewriting module: PIL.GimpGradientFile [assertion]
+      early skip of rewriting module: PIL.GimpPaletteFile [assertion]
+      early skip of rewriting module: PIL.ImageColor [assertion]
+      early skip of rewriting module: PIL.PaletteFile [assertion]
+      early skip of rewriting module: PIL.ImageSequence [assertion]
+      early skip of rewriting module: matplotlib.scale [assertion]
+      early skip of rewriting module: matplotlib.ticker [assertion]
+      early skip of rewriting module: matplotlib.transforms [assertion]
+      early skip of rewriting module: matplotlib._path [assertion]
+      early skip of rewriting module: matplotlib.path [assertion]
+      early skip of rewriting module: matplotlib.bezier [assertion]
+      early skip of rewriting module: matplotlib._color_data [assertion]
+      early skip of rewriting module: matplotlib.fontconfig_pattern [assertion]
+      early skip of rewriting module: pyparsing [assertion]
+      early skip of rewriting module: pyparsing.util [assertion]
+      early skip of rewriting module: pyparsing.exceptions [assertion]
+      early skip of rewriting module: pyparsing.unicode [assertion]
+      early skip of rewriting module: pyparsing.actions [assertion]
+      early skip of rewriting module: pyparsing.core [assertion]
+      early skip of rewriting module: pyparsing.results [assertion]
+      early skip of rewriting module: pyparsing.helpers [assertion]
+      early skip of rewriting module: html [assertion]
+      early skip of rewriting module: html.entities [assertion]
+      early skip of rewriting module: pyparsing.testing [assertion]
+      early skip of rewriting module: pyparsing.common [assertion]
+      early skip of rewriting module: matplotlib._enums [assertion]
+      early skip of rewriting module: cycler [assertion]
+      early skip of rewriting module: matplotlib.ft2font [assertion]
+      early skip of rewriting module: dateutil [assertion]
+      early skip of rewriting module: dateutil._version [assertion]
+      early skip of rewriting module: kiwisolver [assertion]
+      early skip of rewriting module: kiwisolver._cext [assertion]
+      early skip of rewriting module: matplotlib.cm [assertion]
+      early skip of rewriting module: matplotlib._cm [assertion]
+      early skip of rewriting module: matplotlib._cm_listed [assertion]
+      early skip of rewriting module: matplotlib.pyplot [assertion]
+      early skip of rewriting module: matplotlib.colorbar [assertion]
+      early skip of rewriting module: matplotlib.collections [assertion]
+      early skip of rewriting module: matplotlib.artist [assertion]
+      early skip of rewriting module: matplotlib.hatch [assertion]
+      early skip of rewriting module: matplotlib.lines [assertion]
+      early skip of rewriting module: matplotlib.markers [assertion]
+      early skip of rewriting module: matplotlib.contour [assertion]
+      early skip of rewriting module: matplotlib.backend_bases [assertion]
+      early skip of rewriting module: matplotlib.backend_tools [assertion]
+      early skip of rewriting module: matplotlib._pylab_helpers [assertion]
+      early skip of rewriting module: matplotlib.textpath [assertion]
+      early skip of rewriting module: matplotlib._text_helpers [assertion]
+      early skip of rewriting module: matplotlib.dviread [assertion]
+      early skip of rewriting module: matplotlib.font_manager [assertion]
+      early skip of rewriting module: matplotlib.afm [assertion]
+      early skip of rewriting module: matplotlib._mathtext_data [assertion]
+      early skip of rewriting module: matplotlib.mathtext [assertion]
+      early skip of rewriting module: matplotlib._mathtext [assertion]
+      early skip of rewriting module: matplotlib.tight_bbox [assertion]
+      early skip of rewriting module: matplotlib.widgets [assertion]
+      early skip of rewriting module: matplotlib.patches [assertion]
+      early skip of rewriting module: matplotlib.backend_managers [assertion]
+      early skip of rewriting module: matplotlib.text [assertion]
+      early skip of rewriting module: matplotlib.spines [assertion]
+      early skip of rewriting module: matplotlib.image [assertion]
+      early skip of rewriting module: matplotlib._image [assertion]
+      early skip of rewriting module: matplotlib.style [assertion]
+      early skip of rewriting module: matplotlib.style.core [assertion]
+      early skip of rewriting module: matplotlib.figure [assertion]
+      early skip of rewriting module: matplotlib._blocking_input [assertion]
+      early skip of rewriting module: matplotlib.projections [assertion]
+      early skip of rewriting module: matplotlib.axes [assertion]
+      early skip of rewriting module: matplotlib.axes._subplots [assertion]
+      early skip of rewriting module: matplotlib.axes._axes [assertion]
+      early skip of rewriting module: matplotlib.category [assertion]
+      early skip of rewriting module: dateutil.parser [assertion]
+      early skip of rewriting module: dateutil.parser._parser [assertion]
+      early skip of rewriting module: six [assertion]
+      early skip of rewriting module: dateutil.relativedelta [assertion]
+      early skip of rewriting module: dateutil._common [assertion]
+      early skip of rewriting module: dateutil.tz [assertion]
+      early skip of rewriting module: dateutil.tz.tz [assertion]
+      early skip of rewriting module: six.moves [assertion]
+      early skip of rewriting module: dateutil.tz._common [assertion]
+      early skip of rewriting module: dateutil.tz._factories [assertion]
+      early skip of rewriting module: dateutil.tz.win [assertion]
+      early skip of rewriting module: six.moves.winreg [assertion]
+      early skip of rewriting module: dateutil.parser.isoparser [assertion]
+      early skip of rewriting module: matplotlib.units [assertion]
+      early skip of rewriting module: matplotlib.dates [assertion]
+      early skip of rewriting module: dateutil.rrule [assertion]
+      early skip of rewriting module: matplotlib.legend [assertion]
+      early skip of rewriting module: matplotlib.offsetbox [assertion]
+      early skip of rewriting module: matplotlib.container [assertion]
+      early skip of rewriting module: matplotlib.legend_handler [assertion]
+      early skip of rewriting module: matplotlib.mlab [assertion]
+      early skip of rewriting module: matplotlib.quiver [assertion]
+      early skip of rewriting module: matplotlib.stackplot [assertion]
+      early skip of rewriting module: matplotlib.streamplot [assertion]
+      early skip of rewriting module: matplotlib.table [assertion]
+      early skip of rewriting module: matplotlib.tri [assertion]
+      early skip of rewriting module: matplotlib.tri.triangulation [assertion]
+      early skip of rewriting module: matplotlib.tri.tricontour [assertion]
+      early skip of rewriting module: matplotlib.tri.tritools [assertion]
+      early skip of rewriting module: matplotlib.tri.trifinder [assertion]
+      early skip of rewriting module: matplotlib.tri.triinterpolate [assertion]
+      early skip of rewriting module: matplotlib.tri.trirefine [assertion]
+      early skip of rewriting module: matplotlib.tri.tripcolor [assertion]
+      early skip of rewriting module: matplotlib.tri.triplot [assertion]
+      early skip of rewriting module: matplotlib.axes._base [assertion]
+      early skip of rewriting module: matplotlib.axis [assertion]
+      early skip of rewriting module: matplotlib.axes._secondary_axes [assertion]
+      early skip of rewriting module: matplotlib.gridspec [assertion]
+      early skip of rewriting module: matplotlib.tight_layout [assertion]
+      early skip of rewriting module: matplotlib.projections.geo [assertion]
+      early skip of rewriting module: matplotlib.projections.polar [assertion]
+      early skip of rewriting module: mpl_toolkits.mplot3d [assertion]
+      early skip of rewriting module: mpl_toolkits.mplot3d.axes3d [assertion]
+      early skip of rewriting module: mpl_toolkits.mplot3d.art3d [assertion]
+      early skip of rewriting module: mpl_toolkits.mplot3d.proj3d [assertion]
+      early skip of rewriting module: mpl_toolkits.mplot3d.axis3d [assertion]
+      early skip of rewriting module: app.point [assertion]
+      early skip of rewriting module: app.interval [assertion]
+      early skip of rewriting module: doctest [assertion]
+      early skip of rewriting module: difflib [assertion]
+      early skip of rewriting module: unittest [assertion]
+      early skip of rewriting module: unittest.result [assertion]
+      early skip of rewriting module: unittest.util [assertion]
+      early skip of rewriting module: unittest.case [assertion]
+      early skip of rewriting module: unittest.suite [assertion]
+      early skip of rewriting module: unittest.loader [assertion]
+      early skip of rewriting module: unittest.main [assertion]
+      early skip of rewriting module: unittest.runner [assertion]
+      early skip of rewriting module: unittest.signals [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/integration/test_grenoble_mountains.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/integration/test_grenoble_mountains.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/integration/test_grenoble_mountains.py>
+            name: BrokenLine
+            obj: <class 'app.masks.broken_line.BrokenLine'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/integration/test_grenoble_mountains.py>
+            name: Point
+            obj: <class 'app.point.Point'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/integration/test_grenoble_mountains.py>
+            name: test_broken_line
+            obj: <app.masks.broken_line.BrokenLine object at 0x11197a358>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/integration/test_grenoble_mountains.py>
+            name: test_point
+            obj: <function test_point at 0x10d8741e0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1113d8198>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_point>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/integration/test_grenoble_mountains.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_point> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_point>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/integration/test_grenoble_mountains.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module tests/unit/test_brokenline.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module tests/unit/test_brokenline.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module tests/unit/test_brokenline.py>
+      find_module called for: test_brokenline [assertion]
+      matched test file '/Users/palaforcade/Desktop/lea/tests/unit/test_brokenline.py' [assertion]
+      found cached rewritten pyc for /Users/palaforcade/Desktop/lea/tests/unit/test_brokenline.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_brokenline.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_brokenline.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_brokenline.py>
+            name: BrokenLine
+            obj: <class 'app.masks.broken_line.BrokenLine'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_brokenline.py>
+            name: Point
+            obj: <class 'app.point.Point'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_brokenline.py>
+            name: test_nominal
+            obj: <function test_nominal at 0x111988158>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1115e2fd0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_nominal>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/unit/test_brokenline.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_nominal> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_nominal>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/unit/test_brokenline.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module tests/unit/test_interval.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module tests/unit/test_interval.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module tests/unit/test_interval.py>
+      find_module called for: test_interval [assertion]
+      matched test file '/Users/palaforcade/Desktop/lea/tests/unit/test_interval.py' [assertion]
+      found cached rewritten pyc for /Users/palaforcade/Desktop/lea/tests/unit/test_interval.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_interval.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_interval.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_interval.py>
+            name: Interval
+            obj: <class 'app.interval.Interval'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_interval.py>
+            name: test_nominal_interval
+            obj: <function test_nominal_interval at 0x111988378>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x10d861f60>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_nominal_interval>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_interval.py>
+            name: test_null_interval
+            obj: <function test_null_interval at 0x111988400>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1117aacc0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_null_interval>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/unit/test_interval.py' lenresult=2 outcome='passed'> [hook]
+    genitems <Function test_nominal_interval> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_nominal_interval>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_null_interval> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_null_interval>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/unit/test_interval.py' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module tests/unit/test_union.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module tests/unit/test_union.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module tests/unit/test_union.py>
+      find_module called for: test_union [assertion]
+      matched test file '/Users/palaforcade/Desktop/lea/tests/unit/test_union.py' [assertion]
+      found cached rewritten pyc for /Users/palaforcade/Desktop/lea/tests/unit/test_union.py [assertion]
+      early skip of rewriting module: app.masks.rectangle [assertion]
+      early skip of rewriting module: app.mask_operations [assertion]
+      early skip of rewriting module: app.mask_operations.union [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_union.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_union.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/palaforcade/Library/Python/3.7/lib/python/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_union.py>
+            name: Rectangle
+            obj: <class 'app.masks.rectangle.Rectangle'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_union.py>
+            name: Point
+            obj: <class 'app.point.Point'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_union.py>
+            name: mask_union
+            obj: <function mask_union at 0x111988620>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module tests/unit/test_union.py>
+            name: test_nominal
+            obj: <function test_nominal at 0x1119881e0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x10d861f60>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_nominal>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/unit/test_union.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_nominal> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_nominal>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/unit/test_union.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x10cfcdd68>
+          items: [<Function test_point>, <Function test_nominal>, <Function test_nominal_interval>, <Function test_null_interval>, <Function test_nominal>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x10cfcdd68>
+            items: [<Function test_point>, <Function test_nominal>, <Function test_nominal_interval>, <Function test_null_interval>, <Function test_nominal>]
+            start_path: /Users/palaforcade/Desktop/lea
+            startdir: /Users/palaforcade/Desktop/lea
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session lea exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=5>
+      pytest_runtest_protocol [hook]
+          item: <Function test_point>
+          nextitem: <Function test_nominal>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/integration/test_grenoble_mountains.py::test_point
+            location: ('tests/integration/test_grenoble_mountains.py', 7, 'test_point')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_point>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_point>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/integration/test_grenoble_mountains.py::test_point' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/integration/test_grenoble_mountains.py::test_point' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/integration/test_grenoble_mountains.py::test_point' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_point>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_point>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_point>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/integration/test_grenoble_mountains.py::test_point' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/integration/test_grenoble_mountains.py::test_point' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/integration/test_grenoble_mountains.py::test_point' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_point>
+            nextitem: <Function test_nominal>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_point>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/integration/test_grenoble_mountains.py::test_point' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/integration/test_grenoble_mountains.py::test_point' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/integration/test_grenoble_mountains.py::test_point' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/integration/test_grenoble_mountains.py::test_point
+            location: ('tests/integration/test_grenoble_mountains.py', 7, 'test_point')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_nominal>
+          nextitem: <Function test_nominal_interval>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/unit/test_brokenline.py::test_nominal
+            location: ('tests/unit/test_brokenline.py', 4, 'test_nominal')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_nominal>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_nominal>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/unit/test_brokenline.py::test_nominal' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/unit/test_brokenline.py::test_nominal' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/unit/test_brokenline.py::test_nominal' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_nominal>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_nominal>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_nominal>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/unit/test_brokenline.py::test_nominal' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/unit/test_brokenline.py::test_nominal' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/unit/test_brokenline.py::test_nominal' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_nominal>
+            nextitem: <Function test_nominal_interval>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_nominal>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/unit/test_brokenline.py::test_nominal' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/unit/test_brokenline.py::test_nominal' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/unit/test_brokenline.py::test_nominal' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/unit/test_brokenline.py::test_nominal
+            location: ('tests/unit/test_brokenline.py', 4, 'test_nominal')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_nominal_interval>
+          nextitem: <Function test_null_interval>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/unit/test_interval.py::test_nominal_interval
+            location: ('tests/unit/test_interval.py', 3, 'test_nominal_interval')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_nominal_interval>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_nominal_interval>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/unit/test_interval.py::test_nominal_interval' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/unit/test_interval.py::test_nominal_interval' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/unit/test_interval.py::test_nominal_interval' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_nominal_interval>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_nominal_interval>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_nominal_interval>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/unit/test_interval.py::test_nominal_interval' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/unit/test_interval.py::test_nominal_interval' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/unit/test_interval.py::test_nominal_interval' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_nominal_interval>
+            nextitem: <Function test_null_interval>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_nominal_interval>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/unit/test_interval.py::test_nominal_interval' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/unit/test_interval.py::test_nominal_interval' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/unit/test_interval.py::test_nominal_interval' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/unit/test_interval.py::test_nominal_interval
+            location: ('tests/unit/test_interval.py', 3, 'test_nominal_interval')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_null_interval>
+          nextitem: <Function test_nominal>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/unit/test_interval.py::test_null_interval
+            location: ('tests/unit/test_interval.py', 9, 'test_null_interval')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_null_interval>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_null_interval>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/unit/test_interval.py::test_null_interval' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/unit/test_interval.py::test_null_interval' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/unit/test_interval.py::test_null_interval' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_null_interval>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_null_interval>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_null_interval>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/unit/test_interval.py::test_null_interval' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/unit/test_interval.py::test_null_interval' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/unit/test_interval.py::test_null_interval' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_null_interval>
+            nextitem: <Function test_nominal>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_null_interval>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/unit/test_interval.py::test_null_interval' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/unit/test_interval.py::test_null_interval' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/unit/test_interval.py::test_null_interval' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/unit/test_interval.py::test_null_interval
+            location: ('tests/unit/test_interval.py', 9, 'test_null_interval')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_nominal>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/unit/test_union.py::test_nominal
+            location: ('tests/unit/test_union.py', 5, 'test_nominal')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_nominal>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_nominal>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/unit/test_union.py::test_nominal' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/unit/test_union.py::test_nominal' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/unit/test_union.py::test_nominal' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_nominal>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_nominal>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_nominal>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/unit/test_union.py::test_nominal' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/unit/test_union.py::test_nominal' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/unit/test_union.py::test_nominal' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_nominal>
+            nextitem: None
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_nominal>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'tests/unit/test_union.py::test_nominal' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/unit/test_union.py::test_nominal' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/unit/test_union.py::test_nominal' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x10cfcdd68>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/unit/test_union.py::test_nominal
+            location: ('tests/unit/test_union.py', 5, 'test_nominal')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session lea exitstatus=0 testsfailed=0 testscollected=5>
+        exitstatus: 0
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x10d3e5ef0>
+          exitstatus: 0
+          config: <_pytest.config.Config object at 0x10cfcdd68>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x10cfcdd68>
+    finish pytest_unconfigure --> [] [hook]
